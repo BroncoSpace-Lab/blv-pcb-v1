@@ -921,8 +921,8 @@
 		)
 	)
 	(rectangle
-		(start 87.63 168.91)
-		(end 129.54 233.68)
+		(start 44.45 168.91)
+		(end 86.36 233.68)
 		(stroke
 			(width 0)
 			(type dash)
@@ -978,8 +978,14 @@
 		(color 0 0 0 0)
 		(uuid "dc12ae7a-15b2-4729-82e2-20ea882aba64")
 	)
+	(junction
+		(at 91.44 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0986dad-3665-41c1-b1a6-aebcc9fcf13e")
+	)
 	(no_connect
-		(at 118.11 177.8)
+		(at 74.93 177.8)
 		(uuid "1aea3216-9010-4b9f-8749-47573b9ff382")
 	)
 	(no_connect
@@ -995,7 +1001,7 @@
 		(uuid "9afc0314-0b98-40c5-8acf-c92016ac265c")
 	)
 	(no_connect
-		(at 100.33 177.8)
+		(at 57.15 177.8)
 		(uuid "debafda2-880d-49e7-bed5-ed49199f73ea")
 	)
 	(no_connect
@@ -1032,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 177.8) (xy 110.49 176.53)
+			(xy 67.31 177.8) (xy 67.31 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1092,7 +1098,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 160.02) (xy 113.03 160.02)
+			(xy 67.31 176.53) (xy 91.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad5376e-cb5b-4348-a3d6-5ff243754d97")
+	)
+	(wire
+		(pts
+			(xy 154.94 160.02) (xy 69.85 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 162.56) (xy 115.57 177.8)
+			(xy 72.39 162.56) (xy 72.39 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 154.94) (xy 102.87 177.8)
+			(xy 59.69 154.94) (xy 59.69 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1248,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 175.26) (xy 91.44 175.26)
+			(xy 62.23 175.26) (xy 91.44 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 220.98) (xy 95.25 222.25)
+			(xy 52.07 220.98) (xy 52.07 223.52)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 160.02) (xy 113.03 177.8)
+			(xy 69.85 160.02) (xy 69.85 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 157.48) (xy 107.95 157.48)
+			(xy 152.4 157.48) (xy 64.77 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 162.56) (xy 115.57 162.56)
+			(xy 149.86 162.56) (xy 72.39 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 177.8) (xy 105.41 175.26)
+			(xy 62.23 177.8) (xy 62.23 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1359,6 +1375,16 @@
 			(type default)
 		)
 		(uuid "b39ec8ef-e674-45c9-9601-923cbf8b583a")
+	)
+	(wire
+		(pts
+			(xy 52.07 223.52) (xy 95.25 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29c8ec3-9508-4cb2-b816-943874e56913")
 	)
 	(wire
 		(pts
@@ -1382,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 157.48) (xy 107.95 177.8)
+			(xy 64.77 157.48) (xy 64.77 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1412,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 154.94) (xy 102.87 154.94)
+			(xy 147.32 154.94) (xy 59.69 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1429,6 +1455,26 @@
 			(type default)
 		)
 		(uuid "db7131ab-7c62-4705-aaff-a983efed51a7")
+	)
+	(wire
+		(pts
+			(xy 91.44 176.53) (xy 110.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cece6c-3bf8-4cb7-9119-f245738bb8e6")
+	)
+	(wire
+		(pts
+			(xy 95.25 223.52) (xy 95.25 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5593c7-d6f4-4e1e-8e58-7b2a98296883")
 	)
 	(wire
 		(pts
@@ -2004,7 +2050,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card")
-		(at 110.49 200.66 270)
+		(at 67.31 200.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2012,7 +2058,7 @@
 		(dnp no)
 		(uuid "b6776749-ca20-4c07-8bb6-9bfabe5050f9")
 		(property "Reference" "J4"
-			(at 123.698 180.34 90)
+			(at 80.518 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2066,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card"
-			(at 108.458 222.758 90)
+			(at 65.278 222.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2074,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
-			(at 118.11 229.87 0)
+			(at 74.93 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2083,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
-			(at 110.49 200.66 0)
+			(at 67.31 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2092,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket | https://elm-chan.org/docs/mmc/mmc_e.html"
-			(at 110.49 200.66 0)
+			(at 67.31 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
