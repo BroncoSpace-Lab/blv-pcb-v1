@@ -2423,7 +2423,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 20.32)
+		(at 290.83 38.1)
 		(size 33.02 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2439,7 +2439,7 @@
 		)
 		(uuid "2ac26712-adbd-4e92-84f1-3c660d93b184")
 		(property "Sheetname" "Power"
-			(at 143.51 19.6084 0)
+			(at 290.83 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2448,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 143.51 43.7646 0)
+			(at 290.83 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2457,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 143.51 20.32 0)
+			(at 290.83 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2473,7 @@
 		)
 	)
 	(sheet
-		(at 257.81 136.525)
+		(at 281.94 102.235)
 		(size 34.29 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2489,7 +2489,7 @@
 		)
 		(uuid "569bcdde-8867-46bc-886b-57a220d8386a")
 		(property "Sheetname" "Sensors"
-			(at 257.81 135.8134 0)
+			(at 281.94 101.5234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2498,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 257.81 159.9696 0)
+			(at 281.94 125.6796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
