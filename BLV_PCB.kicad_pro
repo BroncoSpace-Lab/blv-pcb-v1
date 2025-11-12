@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.5,
         1.0
       ],
@@ -224,12 +225,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.7,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.9,
-          "drill": 0.4
+          "diameter": 0.5,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": true
@@ -470,8 +467,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "easyeda2kicad"
+    ],
+    "pinned_symbol_libs": [
+      "easyeda2kicad"
+    ]
   },
   "meta": {
     "filename": "BLV_PCB.kicad_pro",
