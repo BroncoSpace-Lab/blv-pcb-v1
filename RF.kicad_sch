@@ -1007,7 +1007,7 @@
 	)
 	(text "what are we doing with TXEN, RXEN, BUSY?"
 		(exclude_from_sim no)
-		(at 161.798 98.552 0)
+		(at 181.61 105.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1088,16 +1088,8 @@
 		(uuid "fad66e2a-5789-44dc-9e7c-620756530a05")
 	)
 	(no_connect
-		(at 135.89 96.52)
-		(uuid "3be42ef7-1105-4c7f-84de-e31a7a8b4bea")
-	)
-	(no_connect
 		(at 113.03 88.9)
 		(uuid "76b93f01-16cb-40d4-930f-9b6577d3a2e1")
-	)
-	(no_connect
-		(at 135.89 99.06)
-		(uuid "8f94a7b7-cc9a-49c0-bac4-a5ea62de2e57")
 	)
 	(no_connect
 		(at 105.41 91.44)
@@ -1439,6 +1431,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 99.06) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7427678-3e5f-4472-a54d-6f605fc151d6")
+	)
+	(wire
+		(pts
+			(xy 135.89 96.52) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a27fec-8fd3-432f-a393-eff2c2aa0cf6")
+	)
+	(wire
+		(pts
 			(xy 113.03 78.74) (xy 113.03 81.28)
 		)
 		(stroke
@@ -1488,6 +1500,17 @@
 		)
 		(uuid "06270db8-4ee4-42c9-a242-fdc0404c66e0")
 	)
+	(hierarchical_label "RF_TXEN"
+		(shape input)
+		(at 142.24 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d0957c4-f074-4a0f-9c58-a66f7e254f33")
+	)
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 93.98 93.98 180)
@@ -1520,6 +1543,17 @@
 			(justify right)
 		)
 		(uuid "afb9a43c-bfa2-4307-8671-78973be2ff72")
+	)
+	(hierarchical_label "RF_RXEN"
+		(shape input)
+		(at 142.24 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8b6def6-24ef-46d1-a09b-0ee95cb5dbc2")
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
