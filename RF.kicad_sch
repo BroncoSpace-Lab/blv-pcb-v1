@@ -12,176 +12,6 @@
 		(comment 1 "Rev. A - Replaced with E22-400M33S and associated components")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:E32-400M30S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -984,6 +814,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Antenna breakout using uFL Coaxial on Module"
+		(exclude_from_sim no)
+		(at 81.28 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "359da385-8da9-4e66-bffc-c3415eced158")
+	)
 	(text "3V3 @ 550mA"
 		(exclude_from_sim no)
 		(at 156.21 82.296 0)
@@ -1088,11 +928,15 @@
 		(uuid "fad66e2a-5789-44dc-9e7c-620756530a05")
 	)
 	(no_connect
+		(at 113.03 109.22)
+		(uuid "40169dd9-157e-4b63-985f-b7f83af7e069")
+	)
+	(no_connect
 		(at 113.03 88.9)
 		(uuid "76b93f01-16cb-40d4-930f-9b6577d3a2e1")
 	)
 	(no_connect
-		(at 105.41 91.44)
+		(at 113.03 91.44)
 		(uuid "9fcddf3a-3fd9-42fa-89ae-97dc6ff522da")
 	)
 	(no_connect
@@ -1111,16 +955,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 113.03 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c9e568e-e2d9-4469-b2da-1c7624836fd7")
-	)
-	(wire
-		(pts
 			(xy 138.43 106.68) (xy 135.89 106.68)
 		)
 		(stroke
@@ -1131,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 113.03 99.06)
+			(xy 102.87 99.06) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1171,16 +1005,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 113.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a997197-c177-4d81-a87e-ad7b769675d4")
-	)
-	(wire
-		(pts
 			(xy 138.43 114.3) (xy 138.43 111.76)
 		)
 		(stroke
@@ -1211,23 +1035,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 113.03 96.52)
+			(xy 102.87 96.52) (xy 113.03 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "524f3a85-179b-4437-b71a-c86df7d60eb7")
-	)
-	(wire
-		(pts
-			(xy 63.5 114.3) (xy 63.5 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e27864f-b132-4646-84a6-c28e06f20d80")
 	)
 	(wire
 		(pts
@@ -1311,7 +1125,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 113.03 101.6)
+			(xy 102.87 101.6) (xy 113.03 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 113.03 104.14)
+			(xy 102.87 104.14) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1361,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 113.03 93.98)
+			(xy 102.87 93.98) (xy 113.03 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1479,19 +1293,9 @@
 		)
 		(uuid "f0a99d25-354e-4c03-ac7f-822d27cda3ab")
 	)
-	(label "RF_ANT"
-		(at 105.41 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "585b412d-cd0b-4386-b909-184f28a3eb24")
-	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 93.98 99.06 180)
+		(at 102.87 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1513,7 +1317,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 93.98 93.98 180)
+		(at 102.87 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1524,7 +1328,7 @@
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)
-		(at 93.98 101.6 180)
+		(at 102.87 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1535,7 +1339,7 @@
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape output)
-		(at 93.98 96.52 180)
+		(at 102.87 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1557,7 +1361,7 @@
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
-		(at 93.98 104.14 180)
+		(at 102.87 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1691,74 +1495,6 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 63.5 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a1df7e9-7581-4633-b8bd-af0a9b2680ee")
-		(property "Reference" "J9"
-			(at 63.5 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RF SMA"
-			(at 63.8174 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
-			(at 63.5 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 63.5 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6070a310-c493-4531-8d6d-b824e786e482")
-		)
-		(pin "1"
-			(uuid "75f03c03-9819-4c77-9a6c-d04bee33be8f")
-		)
-		(instances
-			(project ""
-				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2045,71 +1781,6 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d40581f9-0bed-4605-a079-6104d3c083f7")
-		(property "Reference" "#PWR046"
-			(at 63.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad65cebd-c8da-48fc-8fe1-aea09a620c72")
-		)
-		(instances
-			(project "BLV_PCB"
-				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)

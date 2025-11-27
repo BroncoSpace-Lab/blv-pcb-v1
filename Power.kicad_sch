@@ -4455,7 +4455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DRC0010J_ThermalVias"
+		(property "Footprint" "Package_SON:Texas_DRC0010J"
 			(at 261.62 120.65 0)
 			(effects
 				(font
