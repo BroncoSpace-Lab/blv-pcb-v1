@@ -1205,7 +1205,7 @@
 				)
 			)
 		)
-		(property "Value" "Cube0_UART_JST-PH"
+		(property "Value" "JST-PH"
 			(at 65.532 108.712 0)
 			(effects
 				(font
@@ -1213,7 +1213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 76.2 106.68 0)
 			(effects
 				(font
@@ -1313,6 +1313,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C131334"
 			(at 76.2 106.68 0)
 			(effects
 				(font
@@ -1685,7 +1694,7 @@
 				)
 			)
 		)
-		(property "Value" "Cube0_UART_Debug"
+		(property "Value" "duPont"
 			(at 78.74 144.272 0)
 			(effects
 				(font
@@ -1837,7 +1846,7 @@
 				)
 			)
 		)
-		(property "Value" "Cube0_UART_JST-PH"
+		(property "Value" "JST-PH"
 			(at 65.532 134.112 0)
 			(effects
 				(font
@@ -1845,7 +1854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 76.2 132.08 0)
 			(effects
 				(font
@@ -1953,6 +1962,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C131334"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7a58620e-7ee8-4ec5-8fc0-626aa3f56e01")
 		)
@@ -2001,7 +2019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 292.1 251.46 0)
 			(effects
 				(font
@@ -2136,7 +2154,7 @@
 				)
 			)
 		)
-		(property "Value" "Cube0_UART_JST-PH"
+		(property "Value" "JST-PH"
 			(at 65.532 83.312 0)
 			(effects
 				(font
@@ -2144,7 +2162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 76.2 81.28 0)
 			(effects
 				(font
@@ -2252,6 +2270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C131334"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2ee409c6-18a4-4a42-af31-832afce50dc2")
 		)
@@ -2300,7 +2327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 292.1 256.54 0)
 			(effects
 				(font
@@ -2444,7 +2471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 292.1 261.62 0)
 			(effects
 				(font
@@ -2579,7 +2606,7 @@
 				)
 			)
 		)
-		(property "Value" "Cube0_UART_Debug"
+		(property "Value" "duPont"
 			(at 78.74 93.472 0)
 			(effects
 				(font
@@ -2740,7 +2767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 292.1 246.38 0)
 			(effects
 				(font
@@ -2875,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Value" "Cube0_UART_Debug"
+		(property "Value" "duPont"
 			(at 78.74 118.872 0)
 			(effects
 				(font
@@ -3075,7 +3102,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 20.32)
+		(at 148.59 33.02)
 		(size 33.02 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3091,7 +3118,7 @@
 		)
 		(uuid "2ac26712-adbd-4e92-84f1-3c660d93b184")
 		(property "Sheetname" "Power"
-			(at 143.51 19.6084 0)
+			(at 148.59 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3127,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 143.51 43.7646 0)
+			(at 148.59 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3136,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 143.51 20.32 0)
+			(at 148.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,48 +3147,6 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 276.225 128.27)
-		(size 34.29 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "569bcdde-8867-46bc-886b-57a220d8386a")
-		(property "Sheetname" "Sensors"
-			(at 276.225 127.5584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 276.225 151.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BLV_PCB"
-				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973"
-					(page "4")
 				)
 			)
 		)
