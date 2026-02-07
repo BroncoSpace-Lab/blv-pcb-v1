@@ -2997,12 +2997,6 @@
 		(uuid "dff76a35-3360-4c6d-b645-f7d95d528320")
 	)
 	(junction
-		(at 215.9 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed470f9a-17f1-4c3d-9d5d-cd899e047f60")
-	)
-	(junction
 		(at 252.73 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3286,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 50.8) (xy 215.9 50.8)
+			(xy 203.2 50.8) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3536,16 +3530,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 50.8) (xy 203.2 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e8834f0-8021-4604-94c8-82e55c2ab45f")
-	)
-	(wire
-		(pts
 			(xy 68.58 76.2) (xy 67.31 76.2)
 		)
 		(stroke
@@ -3583,16 +3567,6 @@
 			(type default)
 		)
 		(uuid "9399951c-e838-477b-96f8-ffa2925a9ce7")
-	)
-	(wire
-		(pts
-			(xy 215.9 44.45) (xy 215.9 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9777e32b-b5e9-4d44-9028-685d6f2bbd98")
 	)
 	(wire
 		(pts
@@ -7650,73 +7624,6 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 215.9 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc8237bb-11f1-4061-b885-9ba8e99cf1b1")
-		(property "Reference" "TP2"
-			(at 218.44 39.8779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 218.44 42.4179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 220.98 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 215.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e12f312-bfdb-4750-944f-9e722eb27bd5")
-		)
-		(instances
-			(project ""
-				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
